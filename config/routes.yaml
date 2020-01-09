@@ -1,3 +1,7 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+a:
+    path: /a
+    controller: App\Controller\DefaultController::a
+
+b:
+    path: /b
+    controller: App\Controller\DefaultController::b

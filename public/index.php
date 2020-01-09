@@ -4,6 +4,12 @@ use App\Kernel;
 use Symfony\Component\ErrorHandler\Debug;
 use Symfony\Component\HttpFoundation\Request;
 
+if (@$_GET['v'] === '4.4.1') {
+    define('GUARD_VERSION', '4.4.1');
+} else {
+    define('GUARD_VERSION', '4.4.0');
+}
+
 require dirname(__DIR__).'/config/bootstrap.php';
 
 if ($_SERVER['APP_DEBUG']) {
