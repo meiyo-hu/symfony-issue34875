@@ -11,8 +11,9 @@ All guards supports all requests that don't have a specific attribute (role).
 
 ## Usage:
 
-- Start web server:
-  - ```cd <project dir>/public/```
+- Clone the repository and start the web server:
+  - ```git clone https://github.com/meiyo-hu/symfony-issue34875.git```
+  - ```cd symfony-issue34875/public/```
   - ```php -S localhost:8000```
 
 - Explore outputs in browser:
